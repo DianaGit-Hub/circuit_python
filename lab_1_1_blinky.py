@@ -1,9 +1,12 @@
+import board
+from digitalio import DigitalInOut, Direction
 import time
-from adafruit_circuitplayground import cp
 
-  while True:
-    cp.red_led = True
+led = DigitalInOut(board.LED)
+led.direction = Direction.OUTPUT
+
+while True:
+    led.value = True
     time.sleep(0.5)
-    cp.red_led = False
+    led.value  = False
     time.sleep(0.5)
-  
