@@ -13,6 +13,6 @@ switch.pull = Pull.UP
 
 while True:
     if (switch.value==True):
-        led[0] = (255,0,0)
+        led[0] = (255,50,155)
     else:
-        led[0] = (0,0,255)
+        led[0] = (100,20,170)
