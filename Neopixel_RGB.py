@@ -15,4 +15,4 @@ while True:
     if (switch.value==True):
         led[0] = (255,50,155)
     else:
-        led[0] = (100,20,170)
+        led[0] = (100,0,245)
