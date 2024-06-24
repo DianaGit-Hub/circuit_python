@@ -17,8 +17,10 @@ while True:
     if (switch.value==True):
         for i in range(9,-1,-1) : 
             led[i] = (225,0,250)
-            time.sleep(0.05)
+            led[9-i] = (0,150,70)
+            time.sleep(0.2)
             led[i] = (0,0,20)
+            led[9-i] = (0,0,0)
          
           #for i in range(10) : 
             led[i] = (225,0,250)
