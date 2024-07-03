@@ -3,7 +3,7 @@ from adafruit_circuitplayground import cp
 while True:
     cp.pixels[0] = (25,0,60)
     cp.play_tone(262, 1) # note c
-    
+    cp.puxels[0] = (0,0,0)
     
     cp.pixels[1] = (25,0,60)
     cp.play_tone(294, 1) # note d
