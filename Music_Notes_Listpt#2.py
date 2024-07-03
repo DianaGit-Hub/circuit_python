@@ -1,7 +1,5 @@
 from adafruit_circuitplayground import cp
 
-from adafruit_circuitplayground import cp
-
 #twinkle twinkle little star below
 note = [262,262,392,392,440,440,392]
 
