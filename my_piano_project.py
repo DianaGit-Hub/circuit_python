@@ -3,7 +3,7 @@ import board
 from adafruit_circuitplayground import cp
 import neopixel
 from digitalio import DigitalInOut, Direction, Pull
-
+ 
 # This gon' be all the notes
 # c, d, e, f, g, a, b
 cp.touch_a1 = DigitalInOut(board.A1) 
@@ -25,7 +25,7 @@ while True:
         while (cp.button_a):  
 		pass
         print("pressed a")
-        cp.play_tone[i]
+        cp.play_tone(note[i],duration[i])
         
     
     elif cp.touch_a1:
